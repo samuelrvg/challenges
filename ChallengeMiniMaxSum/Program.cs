@@ -1,7 +1,10 @@
-﻿using System;
+﻿using static System.Console;
+using static System.Convert;
+using static System.Array;
 using System.Linq;
+using System;
 
-namespace ChallengeMiniMaxSum
+namespace MiniMaxSumChallenge
 {
     class Program
     {
@@ -61,26 +64,23 @@ namespace ChallengeMiniMaxSum
                         continue;
                     }
 
-                    //if (arr[i] >= 1 && arr[i] <= Math.Pow(10, 9))
-                    //{
                     aux[i] += arr[j];
-                    //}
                 }
             }
 
             min = aux.Min();
             max = aux.Max();
 
-            Console.WriteLine("{0} {1}", min, max);
+            WriteLine($"{min} {max}");
         }
 
         static void Main(string[] args)
         {
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+            int[] arr = ConvertAll(ReadLine().Split(' '), arrTemp => ToInt32(arrTemp));
 
             miniMaxSum(arr);
 
-            Console.ReadKey();
+            ReadKey();
         }
     }
 }

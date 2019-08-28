@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ChallengeMiniMaxSum</RootNamespace>
-    <AssemblyName>ChallengeMiniMaxSum</AssemblyName>
+    <RootNamespace>MiniMaxSumChallenge</RootNamespace>
+    <AssemblyName>MiniMaxSumChallenge</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

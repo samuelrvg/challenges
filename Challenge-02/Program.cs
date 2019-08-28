@@ -1,9 +1,10 @@
-﻿using System.Linq;
-using System.IO;
+﻿using static System.Console;
+using static System.Convert;
 using System.Collections.Generic;
-using System;
+using System.Linq;
+using System.IO;
 
-namespace Challenge_01
+namespace CompareTheTripletsChallenge
 {
     class Program
     {
@@ -32,13 +33,13 @@ namespace Challenge_01
         {
             TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
+            List<int> a = ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => ToInt32(aTemp)).ToList();
 
-            List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
+            List<int> b = ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => ToInt32(bTemp)).ToList();
 
             List<int> result = compareTriplets(a, b);
 
-            textWriter.WriteLine(String.Join(" ", result));
+            textWriter.WriteLine(string.Join(" ", result));
 
             textWriter.Flush();
             textWriter.Close();

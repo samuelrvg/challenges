@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E2BE48C-A853-43E4-81B5-3A4E0034ABFE}</ProjectGuid>
+    <ProjectGuid>{7163A850-4F27-4A34-AA6C-452BEA9CC76D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Challenge_02</RootNamespace>
-    <AssemblyName>Challenge-02</AssemblyName>
+    <RootNamespace>DiagonalDifferenceChallenge</RootNamespace>
+    <AssemblyName>DiagonalDifferenceChallenge</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="compare-the-triplets-English.pdf" />
+    <None Include="diagonal-difference-English.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

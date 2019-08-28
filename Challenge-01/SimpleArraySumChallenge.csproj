@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA0F1CCC-FB56-4299-8DEF-A3E59017B1C8}</ProjectGuid>
+    <ProjectGuid>{293C6869-66E6-4C59-91F5-A1677A4ADC1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Challenge_03</RootNamespace>
-    <AssemblyName>Challenge-03</AssemblyName>
+    <RootNamespace>SimpleArraySumChallenge</RootNamespace>
+    <AssemblyName>SimpleArraySumChallenge</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,8 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="a-very-big-sum-English.pdf" />
     <None Include="App.config" />
+    <None Include="simple-array-sum-English.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

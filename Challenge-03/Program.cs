@@ -1,8 +1,10 @@
-﻿using System;
+﻿using static System.Console;
+using static System.Convert;
+using static System.Array;
 using System.Linq;
 using System.IO;
 
-namespace Challenge_03
+namespace VeryBigSumChallenge
 {
     class Program
     {
@@ -16,11 +18,11 @@ namespace Challenge_03
         {
             TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-            int arCount = Convert.ToInt32(Console.ReadLine());
+            int arCount = ToInt32(ReadLine());
 
             if (arCount >= 1 && arCount <= 10)
             {
-                long[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt64(arTemp))
+                long[] ar = ConvertAll(ReadLine().Split(' '), arTemp => ToInt64(arTemp))
                 ;
                 long result = aVeryBigSum(ar);
 

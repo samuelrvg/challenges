@@ -1,10 +1,10 @@
 ﻿using static System.Console;
-using static System.Array;
 using static System.Convert;
+using static System.Array;
 using System.Linq;
 using System.IO;
 
-namespace Challenge_01
+namespace SimpleArraySumChallenge
 {
     class Program
     {

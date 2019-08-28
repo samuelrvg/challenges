@@ -1,6 +1,7 @@
-﻿using System;
+﻿using static System.Console;
+using static System.Convert;
 
-namespace ChallengeStaircase
+namespace StaircaseChallenge
 {
     class Program
     {
@@ -29,17 +30,17 @@ namespace ChallengeStaircase
 
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine(arr[i]);
+                WriteLine(arr[i]);
             }
         }
 
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
+            int n = ToInt32(ReadLine());
 
             staircase(n);
 
-            Console.ReadKey();
+            ReadKey();
         }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Challenge_05
 {
@@ -49,9 +45,9 @@ namespace Challenge_05
 
             //int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
 
-            plusMinus(null);
+            //plusMinus(null);
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
