@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleArraySumChallenge", "Challenge-01\SimpleArraySumChallenge.csproj", "{293C6869-66E6-4C59-91F5-A1677A4ADC1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTheTripletsChallenge", "CompareTheTripletsChallenge\CompareTheTripletsChallenge.csproj", "{9E2BE48C-A853-43E4-81B5-3A4E0034ABFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTheTripletsChallenge", "Challenge-02\CompareTheTripletsChallenge.csproj", "{9E2BE48C-A853-43E4-81B5-3A4E0034ABFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryBigSumChallenge", "VeryBigSumChallenge\VeryBigSumChallenge.csproj", "{DA0F1CCC-FB56-4299-8DEF-A3E59017B1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeryBigSumChallenge", "Challenge-03\VeryBigSumChallenge.csproj", "{DA0F1CCC-FB56-4299-8DEF-A3E59017B1C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifferenceChallenge", "DiagonalDifferenceChallenge\DiagonalDifferenceChallenge.csproj", "{7163A850-4F27-4A34-AA6C-452BEA9CC76D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifferenceChallenge", "Challenge-04\DiagonalDifferenceChallenge.csproj", "{7163A850-4F27-4A34-AA6C-452BEA9CC76D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSumChallenge", "MiniMaxSumChallenge\MiniMaxSumChallenge.csproj", "{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaircaseChallenge", "ChallengeStaircase\StaircaseChallenge.csproj", "{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaircaseChallenge", "StaircaseChallenge\StaircaseChallenge.csproj", "{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniMaxSumChallenge", "ChallengeMiniMaxSum\MiniMaxSumChallenge.csproj", "{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleArraySumChallenge", "SimpleArraySumChallenge\SimpleArraySumChallenge.csproj", "{293C6869-66E6-4C59-91F5-A1677A4ADC1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E2BE48C-A853-43E4-81B5-3A4E0034ABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E2BE48C-A853-43E4-81B5-3A4E0034ABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E2BE48C-A853-43E4-81B5-3A4E0034ABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,19 +33,23 @@ Global
 		{7163A850-4F27-4A34-AA6C-452BEA9CC76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7163A850-4F27-4A34-AA6C-452BEA9CC76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7163A850-4F27-4A34-AA6C-452BEA9CC76D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC620A1-E1F9-4D2C-8F84-7A1F46125F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4A7BD8-5CB4-416B-BE22-DE3EB789A3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293C6869-66E6-4C59-91F5-A1677A4ADC1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E7255061-B98A-4E4A-A076-D61E4FAC94A0}
+		SolutionGuid = {32A41D7F-9189-42F1-A425-BCB8E46A025C}
 	EndGlobalSection
 EndGlobal
