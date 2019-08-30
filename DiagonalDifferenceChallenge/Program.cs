@@ -161,6 +161,7 @@ namespace DiagonalDifferenceChallenge
     }
 }
 
+
 //--------------------------
 
 //using System.Collections.Generic;
